@@ -1,0 +1,17 @@
+body {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+}
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.gallery img {
+  width: 360px;
+  height: 200px;
+}
